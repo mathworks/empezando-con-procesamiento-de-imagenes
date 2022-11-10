@@ -1,19 +1,18 @@
-# "Getting Started with Image Processing" example files
+# Archivos de ejemplo para "Introducción al procesamiento de imágenes"
 
-The Amazon Rainforest is the largest and most diverse rainforest in the world, which makes it important to protect.
+La selva amazónica es la selva más grande y biodiversa del mundo, así que es muy importante protegerla. 
 
-Unfortunately, the rainforest has been receding due to heavy deforestation, but recent conservation efforts have slowed that rate.  
+Desafortunadamente, la deforestación ha causado un impacto profundo en áreas de conservación. Esto está directamente conectado a daños que aceleran el cambio climático. 
 
-See how Image Processing Toolbox is used to analyze and track deforestation in the Amazon Rainforest to see the effects of those conservation efforts in the "Getting Started with Image Processing" video:
+Aprenda cómo usar el Image Processing Toolbox (procesamiento de imágenes) para analizar y cuantificar la deforestación en la selva amazónica. Puede usar como referencia el video del canal de YouTube MATLAB en Español ("Introducción al procesamiento de imágenes para análisis de cambio climático con MATLAB"):
 
-https://www.mathworks.com/videos/getting-started-with-image-processing-1617599799993.html?s_tid=srchtitle
+https://youtu.be/ZZ-XPZcCvCQ
 
-The deforestation.mlx Live Script processes multiple satellite images of the Jamanxim National Forest taken every 4 years from 2000 to 2016.
+El Live Script deforestacion.mlx procesa múltiples imágenes satelitales del Bosque Nacional Jamanxim tomadas cada 4 años desde 2000 hasta 2016.
 
-Take a look at createMask.m - a function generated through the Color Thresholder App that turns interacting with an app into usable code.
+Explore el script createMask.m - una función exportada desde el Color Thresholder App que permite convertir la experiencia interactiva con el app en código que se puede usar. 
 
-Run the Live Script and observe the results. See if you can tweak various parts of the algorithm to get a better result.
+Ejecute el Live Script (todo o por secciones) y observe los resultados. Puede editar partes del algoritmo y encontrar formas de mejorar el resultado. 
 
-To start, try regenerating createMask.m with a different set of thresholds or using a different color space using the Color Thresholder App.
+Para empezar, intente regenerando la función createMask.m con diferentes valores umbrales o usando un espacio de colores diferente en el Color Thresholder App.
 
-[![View "Getting Started with Image Processing" example files on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/89867-getting-started-with-image-processing-example-files)
